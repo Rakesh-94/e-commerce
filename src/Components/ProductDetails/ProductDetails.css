@@ -1,0 +1,19 @@
+.single-product-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .product-image {
+    width: 433px;
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .description-container {
+    flex: 2;
+  }
+  

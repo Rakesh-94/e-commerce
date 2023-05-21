@@ -1,0 +1,49 @@
+.ChekoutSummary{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ChekoutSummary_Cart{
+  padding: 30px;
+}
+
+.ChekoutSummary_order-summary{
+  padding: 20px;
+}
+.ChekoutSummary_Cart input[type="submit"]{
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.ChekoutSummary_order-summary{
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+
+}
+
+.ChekoutSummary_order-summary h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ChekoutSummary_order-summary ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.ChekoutSummary_order-summary li {
+  margin-bottom: 5px;
+}

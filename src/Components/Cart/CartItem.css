@@ -1,0 +1,24 @@
+.CartPage{
+    /* position: absolute; */
+    /* top:50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    border: 1px solid rgb(54, 53, 53);
+}
+.CartPage_Inner{
+
+}
+.pricequantity{
+    /* align-items: center;
+    display: flex;
+    gap: 1rem; */
+}
+.CartPageImage{
+    height: 14rem;
+    width: 15rem;
+    /* border: 1px solid red;    */
+}
+.card_Img{
+    height: 14rem;
+    width: 15rem;
+}

@@ -1,0 +1,16 @@
+.main{
+    padding-top: 10px;
+    border-radius:8px;
+    background-color: rgba(224, 230, 235, 0.093);
+    height: 600px;
+    max-width: 100%;
+
+}
+.slash1{
+  padding-top: 8px;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(to top,pink,hotpink);
+    animation: 1s linear 0s infinite normal none running animation-52bxzi;
+    height: 42px;
+}
