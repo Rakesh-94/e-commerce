@@ -13,7 +13,7 @@ export default function Cart({ title, description, image, id })  {
     // let {title, description, image} = this.props;
     return (
       <div className='my-2'>
-        <h1>Card</h1>
+        {/* <h1>Card</h1> */}
         <div className="card" style={{width: "18rem"}}>
   <img src={image} className="card-img-top" alt="..."/>
   <div className="card-body">

@@ -11,7 +11,7 @@ export default function Cart2({ title, description, image,id })  {
  }
     return (
       <div className='my-2'>
-        <h1>Card</h1>
+        {/* <h1>Card</h1> */}
         <div className="card" style={{width: "18rem"}}>
   <img src={image} className="card-img-top" alt="..."/>
   <div className="card-body">

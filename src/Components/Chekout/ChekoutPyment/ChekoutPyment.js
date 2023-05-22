@@ -37,7 +37,7 @@ const ChekoutPyment = () => {
         </div>
         <div className="ChekoutPyment_input">
           <label htmlFor="cvv">CVV:</label>
-          <input type="text" id="cvv" name="cvv"value={setPaymentMethod?.cvv}
+          <input type="password" id="cvv" name="cvv"value={setPaymentMethod?.cvv}
               onChange={(e) =>
                 setPaymentMethod((prev) => ({
                   ...prev,
@@ -45,9 +45,11 @@ const ChekoutPyment = () => {
                 }))
               } required/>
         </div>
-        <button type="submit" onClick={(e) => {
+        <button className='ChekoutPyment_form_button' type="submit" onClick={(e) => {
+          if(paymentMethod.cardNumber || paymentMethod.expiryDate || paymentMethod.cvv){
             e.preventDefault();
             navigate('/Summary')
+          }
           }} >
             Next
           </button>

@@ -19,7 +19,7 @@ const ChekoutAddress = () => {
             <input
               type="text"
               id="name"
-              name="nam"
+              name="name"
               value={shippingAddress?.name}
               onChange={(e) =>
                 setShippingAddress((prev) => ({
@@ -32,7 +32,7 @@ const ChekoutAddress = () => {
           </div>
           <div className="chekoutAddress_input">
             <label htmlFor="address">Address:</label>
-            <input type="text" id="address" name="addres" value={shippingAddress?.address}
+            <input type="text" id="address" name="address" value={shippingAddress?.address}
               onChange={(e) =>
                 setShippingAddress((prev) => ({
                   ...prev,
@@ -42,7 +42,7 @@ const ChekoutAddress = () => {
           </div>
           <div className="chekoutAddress_input">
             <label htmlFor="city">City:</label>
-            <input type="text" id="city" name="cit" value={shippingAddress?.city}
+            <input type="text" id="city" name="city" value={shippingAddress?.city}
               onChange={(e) =>
                 setShippingAddress((prev) => ({
                   ...prev,
@@ -50,9 +50,11 @@ const ChekoutAddress = () => {
                 }))
               } required />
           </div>
-          <button type="submit" onClick={(e) => {
+          <button className="ChekoutAddress_form_button" type="submit" onClick={(e) => {
+            if(shippingAddress.name>0 || shippingAddress.address>0 || shippingAddress.city){
             e.preventDefault();
             navigate('/Pyment')
+          }
           }} >
             Next
           </button>

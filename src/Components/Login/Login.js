@@ -23,6 +23,7 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        history("/")
     
         if (name === correctName && email === correctEmail && password === correctPassword) {
           setIsLoggedIn(true)

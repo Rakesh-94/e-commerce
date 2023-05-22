@@ -12,7 +12,7 @@
 .ChekoutSummary_order-summary{
   padding: 20px;
 }
-.ChekoutSummary_Cart input[type="submit"]{
+.ChekoutSummary_Cart_button{
   padding: 10px 20px;
   font-size: 16px;
   background-color: #4CAF50;

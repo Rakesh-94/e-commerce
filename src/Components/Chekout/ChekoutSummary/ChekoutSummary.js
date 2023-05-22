@@ -29,7 +29,7 @@ const ChekoutSummary = () => {
         </ul>
       </div>
 
-      <button type="submit" onClick={() => {
+      <button className='ChekoutSummary_Cart_button' type="submit" onClick={() => {
         if(shippingAddress.name>0 || shippingAddress.address>0 || shippingAddress.city || paymentMethod.cardNumber || paymentMethod.expiryDate || paymentMethod.cvv){
           
           alert("Thank you for purchase");
